@@ -1,0 +1,17 @@
+{
+  "id": "carbon_example_layout_template",
+  "uiElementInstances": [
+    {
+      "id": "instance-1",
+      "uiElementTemplateId": "carbon_example_ui_element_template",
+      "positionAndSize": {
+        "x": 9,
+        "y": 20,
+        "rows": 20,
+        "cols": 8,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    }
+  ]
+}

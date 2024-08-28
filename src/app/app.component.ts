@@ -1,14 +1,18 @@
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { Component, signal, WritableSignal } from '@angular/core';
+import { setupDefaultDUI } from '@namnguyen191/dui-common';
+import { DuiComponent } from '@namnguyen191/dui-core';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [DuiComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'shrimping-around';
+  layoutId: WritableSignal<string> = signal('carbon_example_layout_template');
+
+  constructor() {
+    setupDefaultDUI();
+  }
 }
