@@ -1,0 +1,23 @@
+{
+  "id": "sulawesi_welcome_card",
+  "type": "CARBON_TEXT_CARD",
+  "options": {
+    "title": "Sulawesi",
+    "subTitle": "Advance level species",
+    "avatarUrl": "https://cdn-icons-png.flaticon.com/512/2347/2347004.png",
+    "imageUrl": "/images/sulawesi-shrimp.jpg",
+    "body": "Sulawesi shrimp, also known as \"Cardinal Shrimp\", are a group of freshwater shrimp species native to the island of Sulawesi in Indonesia. These shrimp are popular in the aquarium hobby due to their striking colors and unique patterns.\n\nThese shrimp prefer hard, alkaline water with a high mineral content, mimicking the natural lake environments they come from. Sulawesi shrimp can be delicate to care for in captivity, requiring specific water parameters and stability to thrive.",
+    "clickable": true
+  },
+  "eventsHooks": {
+    "onCardClicked": [
+      {
+        "type": "navigate",
+        "payload": {
+          "navigationType": "internal",
+          "url": "/dui-e2e/button-patterns"
+        }
+      }
+    ]
+  }
+}

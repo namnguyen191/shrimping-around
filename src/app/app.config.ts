@@ -6,7 +6,7 @@ import { provideRouter } from '@angular/router';
 import { appRoutes } from './app.routes';
 import { provideHttpClient } from '@angular/common/http';
 import { JS_RUNNER_WORKER } from '@namnguyen191/dui-core';
-import { DUI_SETUP_CONFIGS } from '@namnguyen191/dui-common';
+import { DUI_COMMON_SETUP_CONFIG } from '@namnguyen191/dui-common';
 import { getDUIConfigFactory } from './dui-config';
 
 export const appConfig: ApplicationConfig = {
@@ -28,7 +28,7 @@ export const appConfig: ApplicationConfig = {
       },
     },
     {
-      provide: DUI_SETUP_CONFIGS,
+      provide: DUI_COMMON_SETUP_CONFIG,
       useFactory: getDUIConfigFactory,
     },
   ],

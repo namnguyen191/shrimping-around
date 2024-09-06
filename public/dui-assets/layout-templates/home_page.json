@@ -1,0 +1,53 @@
+{
+  "id": "home_page",
+  "uiElementInstances": [
+    {
+      "id": "instance-1",
+      "uiElementTemplateId": "neo_welcome_card",
+      "positionAndSize": {
+        "x": 0,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-2",
+      "uiElementTemplateId": "caridina_welcome_card",
+      "positionAndSize": {
+        "x": 4,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-3",
+      "uiElementTemplateId": "sulawesi_welcome_card",
+      "positionAndSize": {
+        "x": 8,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-4",
+      "uiElementTemplateId": "others_welcome_card",
+      "positionAndSize": {
+        "x": 12,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    }
+  ]
+}

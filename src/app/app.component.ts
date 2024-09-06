@@ -1,6 +1,10 @@
-import { Component, signal, WritableSignal } from '@angular/core';
-import { setupDefaultDUI } from '@namnguyen191/dui-common';
-import { DuiComponent } from '@namnguyen191/dui-core';
+import { Component, inject, signal, WritableSignal } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import {
+  setupDefaultDUI,
+  UIElementRepositionEvent,
+} from '@namnguyen191/dui-common';
+import { DuiComponent, EventsService } from '@namnguyen191/dui-core';
 
 @Component({
   standalone: true,
@@ -10,9 +14,20 @@ import { DuiComponent } from '@namnguyen191/dui-core';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  layoutId: WritableSignal<string> = signal('carbon_example_layout_template');
+  layoutId: WritableSignal<string> = signal('home_page');
 
+  readonly #eventsService = inject(EventsService);
   constructor() {
     setupDefaultDUI();
+    this.setupResizeListener();
+  }
+
+  setupResizeListener() {
+    this.#eventsService
+      .getEvents()
+      .pipe(UIElementRepositionEvent(), takeUntilDestroyed())
+      .subscribe({
+        next: (val) => console.log('Widget new positions', val),
+      });
   }
 }
