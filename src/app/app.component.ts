@@ -1,28 +1,28 @@
-import { Component, inject, signal, WritableSignal } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { RouterModule } from '@angular/router';
 import {
   setupDefaultDUI,
   UIElementRepositionEvent,
 } from '@namnguyen191/dui-common';
-import { DuiComponent, EventsService } from '@namnguyen191/dui-core';
+import { EventsService } from '@namnguyen191/dui-core';
 
 @Component({
   standalone: true,
-  imports: [DuiComponent],
+  imports: [RouterModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  layoutId: WritableSignal<string> = signal('home_page');
-
   readonly #eventsService = inject(EventsService);
+
   constructor() {
     setupDefaultDUI();
-    this.setupResizeListener();
+    this.#setupResizeListener();
   }
 
-  setupResizeListener() {
+  #setupResizeListener() {
     this.#eventsService
       .getEvents()
       .pipe(UIElementRepositionEvent(), takeUntilDestroyed())
