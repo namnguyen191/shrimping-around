@@ -6,10 +6,11 @@ import {
   UIElementRepositionEvent,
 } from '@namnguyen191/dui-common';
 import { EventsService } from '@namnguyen191/dui-core';
+import { HeaderModule, ThemeModule } from 'carbon-components-angular';
 
 @Component({
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterModule, ThemeModule, HeaderModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

@@ -36,14 +36,20 @@ importers:
         specifier: ^1.64.0
         version: 1.64.0(sass@1.78.0)
       '@namnguyen191/dui-carbon-components':
-        specifier: ^0.0.0-2
-        version: 0.0.0-2(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/dui-common@0.0.0-3(jharlyxqwkprcykfvufpwc3oma))(@namnguyen191/dui-core@0.0.0-4(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(carbon-components-angular@5.40.2(@carbon/styles@1.64.0(sass@1.78.0)))(lodash-es@4.17.21)(zod@3.23.8)
+        specifier: 0.0.0-4
+        version: 0.0.0-4(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/dui-common@0.0.0-3(jharlyxqwkprcykfvufpwc3oma))(@namnguyen191/dui-core@0.0.0-4(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(carbon-components-angular@5.40.2(@carbon/styles@1.64.0(sass@1.78.0)))(lodash-es@4.17.21)(zod@3.23.8)
       '@namnguyen191/dui-common':
         specifier: '*'
         version: 0.0.0-3(jharlyxqwkprcykfvufpwc3oma)
       '@namnguyen191/dui-core':
         specifier: '*'
         version: 0.0.0-4(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)
+      carbon-components:
+        specifier: ^10.58.15
+        version: 10.58.15
+      carbon-components-angular:
+        specifier: ^5.40.2
+        version: 5.40.2(@carbon/styles@1.64.0(sass@1.78.0))
       rxjs:
         specifier: ~7.8.1
         version: 7.8.1
@@ -1070,6 +1076,10 @@ packages:
       sass:
         optional: true
 
+  '@carbon/telemetry@0.1.0':
+    resolution: {integrity: sha512-kNWt0bkgPwGW0i5h7HFuljbKRXPvIhsKbB+1tEURAYLXoJg9iJLF1eGvWN5iVoFCS2zje4GR3OGOsvvKVe7Hlg==}
+    hasBin: true
+
   '@carbon/themes@11.39.0':
     resolution: {integrity: sha512-X7lJHx7uXSMy0W2OoNSmyx9flOzJ7a2H85qjsgtPR83h2ElS4E4m/7fKInYrdMJVYuBLOszW8n04N10EFCO/YA==}
 
@@ -1877,8 +1887,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@namnguyen191/dui-carbon-components@0.0.0-2':
-    resolution: {integrity: sha512-pmY584x+fRYGD358JqZ9Do9apNJLWGYTbCZaxlw+YvfSV7mDR99j9AeQX8n4TSH3071g+5lKXfwpZcSHpswfIQ==}
+  '@namnguyen191/dui-carbon-components@0.0.0-4':
+    resolution: {integrity: sha512-u6qTXVU/ByvzUSUIjX8uN4MQt4CaxOtzf95TvhO7q034RbqSOycszRRxzlVSWk7YOedEC4ljp6ESPfi1/vKLEQ==}
     peerDependencies:
       '@angular/common': 18.X.X
       '@angular/core': 18.X.X
@@ -3122,6 +3132,9 @@ packages:
     peerDependencies:
       '@carbon/styles': ^1.54.0
 
+  carbon-components@10.58.15:
+    resolution: {integrity: sha512-w1ubGzeH+HdJotD+B2UgW8hUeTtp1CcXDcki20Il3er6BfLjEhQL5/XlXnJiDzRmB6NgozxOQEbjLPXbZSfiqA==}
+
   chai@5.1.1:
     resolution: {integrity: sha512-pT1ZgP8rPNqUgieVaEY+ryQr6Q4HXNg8Ei9UnLUrjN4IA7dvQC5JB+/kxVcPNDHyBcc/26CXPkbNzq3qwrOEKA==}
     engines: {node: '>=12'}
@@ -3985,6 +3998,9 @@ packages:
   flat@5.0.2:
     resolution: {integrity: sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==}
     hasBin: true
+
+  flatpickr@4.6.1:
+    resolution: {integrity: sha512-3ULSxbXmcMIRzer/2jLNweoqHpwDvsjEawO2FUd9UFR8uPwLM+LruZcPDpuZStcEgbQKhuFOfXo4nYdGladSNw==}
 
   flatpickr@4.6.13:
     resolution: {integrity: sha512-97PMG/aywoYpB4IvbvUJi0RQi8vearvU0oov1WW3k0WZPBMrTQVqekSX5CjSG/M4Q3i6A/0FKXC7RyAoAUUSPw==}
@@ -4955,6 +4971,10 @@ packages:
 
   long-timeout@0.1.1:
     resolution: {integrity: sha512-BFRuQUqc7x2NWxfJBCyUrN8iYUYznzL9JROmRz1gZ6KlOIgmoD+njPVbb+VNn2nGMKggMsK79iUNErillsrx7w==}
+
+  loose-envify@1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
 
   loupe@3.1.1:
     resolution: {integrity: sha512-edNu/8D5MKVfGVFRhFf8aAxiTM6Wumfz5XsaatSxlD3w4R1d/WEKUTydCdPGbl9K7QG/Ca3GnDV2sIKIpXRQcw==}
@@ -6760,6 +6780,9 @@ packages:
   walker@1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
 
+  warning@3.0.0:
+    resolution: {integrity: sha512-jMBt6pUrKn5I+OGgtQ4YZLdhIeJmObddh6CsibPxyQ5yPZm1XExSyzC1LCNX7BzhxWgiHmizBWJTHJIjMjTQYQ==}
+
   watchpack@2.4.1:
     resolution: {integrity: sha512-8wrBCMtVhqcXP2Sup1ctSkga6uc2Bx0IIvKyT7yTFier5AXHooSI+QyQQAtTb7+E0IUCCKyTFmXqdqgum2XWGg==}
     engines: {node: '>=10.13.0'}
@@ -8298,6 +8321,8 @@ snapshots:
     optionalDependencies:
       sass: 1.78.0
 
+  '@carbon/telemetry@0.1.0': {}
+
   '@carbon/themes@11.39.0':
     dependencies:
       '@carbon/colors': 11.25.0
@@ -9072,7 +9097,7 @@ snapshots:
   '@msgpackr-extract/msgpackr-extract-win32-x64@3.0.3':
     optional: true
 
-  '@namnguyen191/dui-carbon-components@0.0.0-2(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/dui-common@0.0.0-3(jharlyxqwkprcykfvufpwc3oma))(@namnguyen191/dui-core@0.0.0-4(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(carbon-components-angular@5.40.2(@carbon/styles@1.64.0(sass@1.78.0)))(lodash-es@4.17.21)(zod@3.23.8)':
+  '@namnguyen191/dui-carbon-components@0.0.0-4(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/dui-common@0.0.0-3(jharlyxqwkprcykfvufpwc3oma))(@namnguyen191/dui-core@0.0.0-4(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(carbon-components-angular@5.40.2(@carbon/styles@1.64.0(sass@1.78.0)))(lodash-es@4.17.21)(zod@3.23.8)':
     dependencies:
       '@angular/common': 18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1)
       '@angular/core': 18.2.3(rxjs@7.8.1)(zone.js@0.14.10)
@@ -10926,6 +10951,13 @@ snapshots:
       lodash: 4.17.21
       tslib: 2.3.0
 
+  carbon-components@10.58.15:
+    dependencies:
+      '@carbon/telemetry': 0.1.0
+      flatpickr: 4.6.1
+      lodash.debounce: 4.0.8
+      warning: 3.0.0
+
   chai@5.1.1:
     dependencies:
       assertion-error: 2.0.1
@@ -11902,6 +11934,8 @@ snapshots:
       rimraf: 3.0.2
 
   flat@5.0.2: {}
+
+  flatpickr@4.6.1: {}
 
   flatpickr@4.6.13: {}
 
@@ -13157,6 +13191,10 @@ snapshots:
       - supports-color
 
   long-timeout@0.1.1: {}
+
+  loose-envify@1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
 
   loupe@3.1.1:
     dependencies:
@@ -15077,6 +15115,10 @@ snapshots:
   walker@1.0.8:
     dependencies:
       makeerror: 1.0.12
+
+  warning@3.0.0:
+    dependencies:
+      loose-envify: 1.4.0
 
   watchpack@2.4.1:
     dependencies:

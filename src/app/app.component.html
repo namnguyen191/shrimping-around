@@ -1,1 +1,10 @@
-<router-outlet></router-outlet>
+<div cdsTheme="g100">
+  <cds-header brand="Shrimping around">
+    <cds-header-navigation>
+      <cds-header-item [isCurrentPage]="true">Home</cds-header-item>
+    </cds-header-navigation>
+  </cds-header>
+  <section class="main-content">
+    <router-outlet></router-outlet>
+  </section>
+</div>
