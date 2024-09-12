@@ -7,6 +7,13 @@ export const appRoutes: Route[] = [
       import('./features/home/home.component').then((m) => m.HomeComponent),
   },
   {
+    path: 'species/:speciesId',
+    loadComponent: () =>
+      import('./features/species-page/species-page.component').then(
+        (m) => m.SpeciesPageComponent
+      ),
+  },
+  {
     path: '**',
     pathMatch: 'full',
     redirectTo: 'home',

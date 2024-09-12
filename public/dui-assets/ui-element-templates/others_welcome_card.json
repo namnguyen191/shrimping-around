@@ -15,7 +15,7 @@
         "type": "navigate",
         "payload": {
           "navigationType": "internal",
-          "url": "/dui-e2e/button-patterns"
+          "url": "/species/other_species"
         }
       }
     ]

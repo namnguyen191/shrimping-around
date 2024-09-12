@@ -1,0 +1,17 @@
+{
+  "id": "caridina_page",
+  "uiElementInstances": [
+    {
+      "id": "instance-1",
+      "uiElementTemplateId": "caridina_welcome_card",
+      "positionAndSize": {
+        "x": 4,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    }
+  ]
+}

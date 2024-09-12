@@ -1,0 +1,17 @@
+{
+  "id": "other_species_page",
+  "uiElementInstances": [
+    {
+      "id": "instance-1",
+      "uiElementTemplateId": "others_welcome_card",
+      "positionAndSize": {
+        "x": 12,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    }
+  ]
+}

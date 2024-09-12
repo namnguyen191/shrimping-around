@@ -1,0 +1,17 @@
+{
+  "id": "neocaridina_page",
+  "uiElementInstances": [
+    {
+      "id": "instance-1",
+      "uiElementTemplateId": "neo_welcome_card",
+      "positionAndSize": {
+        "x": 0,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    }
+  ]
+}
