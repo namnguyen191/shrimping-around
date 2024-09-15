@@ -24,7 +24,8 @@
         ],
         "styles": ["./src/styles.scss"],
         "webWorkerTsConfig": "tsconfig.worker.json",
-        "scripts": []
+        "scripts": [],
+        "baseHref": "/shrimping-around/"
       },
       "configurations": {
         "production": {
@@ -40,8 +41,7 @@
               "maximumError": "4kb"
             }
           ],
-          "outputHashing": "all",
-          "baseHref": "/shrimping-around/"
+          "outputHashing": "all"
         },
         "development": {
           "optimization": false,
