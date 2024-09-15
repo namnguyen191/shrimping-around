@@ -2,7 +2,7 @@
   "id": "caridina_welcome_card.CARBON_TEXT_CARD",
   "type": "CARBON_TEXT_CARD",
   "options": {
-    "title": "Caridina",
+    "title": "<${ return 'Caridina' }$>",
     "subTitle": "Intermediate level species",
     "avatarUrl": "https://cdn-icons-png.flaticon.com/512/2347/2347004.png",
     "imageUrl": "/shrimping-around/images/prl-shrimp.JPG",
