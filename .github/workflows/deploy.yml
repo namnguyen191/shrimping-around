@@ -18,16 +18,15 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - name: PNPM setup using Node version ${{ matrix.node-version }}
+        uses: pnpm/action-setup@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          version: 9
 
       - name: Install and Build
         run: |
-          npm ci
-          npm run build
+          pnpm ci
+          pnpm build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.0
