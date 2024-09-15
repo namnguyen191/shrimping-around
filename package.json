@@ -20,7 +20,7 @@
     "@carbon/styles": "^1.65.0",
     "@namnguyen191/dui-carbon-components": "0.0.0-7",
     "@namnguyen191/dui-common": "0.0.0-3",
-    "@namnguyen191/dui-core": "0.0.0-8",
+    "@namnguyen191/dui-core": "0.0.0-9",
     "carbon-components": "^10.58.15",
     "carbon-components-angular": "^5.40.2",
     "rxjs": "~7.8.1",

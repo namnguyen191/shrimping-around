@@ -16,16 +16,10 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(),
     {
       provide: JS_RUNNER_WORKER,
-      useFactory: (): Worker => {
-        const worker = new Worker(
-          new URL('./js-runner.worker', import.meta.url),
-          {
-            name: 'CustomWorker',
-            type: 'module',
-          }
-        );
-        return worker;
-      },
+      useValue: new Worker(new URL('./js-runner.worker', import.meta.url), {
+        name: 'worker',
+        type: 'module',
+      }),
     },
     {
       provide: DUI_COMMON_SETUP_CONFIG,

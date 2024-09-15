@@ -37,13 +37,13 @@ importers:
         version: 1.65.0(sass@1.78.0)
       '@namnguyen191/dui-carbon-components':
         specifier: 0.0.0-7
-        version: 0.0.0-7(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/dui-common@0.0.0-3(ehblbwbaimoshry2uqbalz2wq4))(@namnguyen191/dui-core@0.0.0-8(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(carbon-components-angular@5.40.2(@carbon/styles@1.65.0(sass@1.78.0)))(lodash-es@4.17.21)(zod@3.23.8)
+        version: 0.0.0-7(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/dui-common@0.0.0-3(q4d3v2tlxd532mv5d5lw2n2xqu))(@namnguyen191/dui-core@0.0.0-9(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(carbon-components-angular@5.40.2(@carbon/styles@1.65.0(sass@1.78.0)))(lodash-es@4.17.21)(zod@3.23.8)
       '@namnguyen191/dui-common':
         specifier: 0.0.0-3
-        version: 0.0.0-3(ehblbwbaimoshry2uqbalz2wq4)
+        version: 0.0.0-3(q4d3v2tlxd532mv5d5lw2n2xqu)
       '@namnguyen191/dui-core':
-        specifier: 0.0.0-8
-        version: 0.0.0-8(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)
+        specifier: 0.0.0-9
+        version: 0.0.0-9(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)
       carbon-components:
         specifier: ^10.58.15
         version: 10.58.15
@@ -1911,8 +1911,8 @@ packages:
       rxjs: ~7.8.1
       zod: ^3.22.4
 
-  '@namnguyen191/dui-core@0.0.0-8':
-    resolution: {integrity: sha512-cSH+/s3vHPl3aXT0JjQVkYTnpRzcV1gXwI7TzYNtIRwWFZf/glQecM7gVd/wiVxXyIkqv5/Pg4hk2Hft6i+hTg==}
+  '@namnguyen191/dui-core@0.0.0-9':
+    resolution: {integrity: sha512-20GHepT2Ljts+jJs37y2Smbhr/QpDxLsWdCyDob3CNBkM5eMDNO8YJIxknkx8sDxHWxRd1F3h0NHaRu9Yko8ug==}
     peerDependencies:
       '@angular/common': 18.X.X
       '@angular/core': 18.X.X
@@ -9100,31 +9100,31 @@ snapshots:
   '@msgpackr-extract/msgpackr-extract-win32-x64@3.0.3':
     optional: true
 
-  '@namnguyen191/dui-carbon-components@0.0.0-7(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/dui-common@0.0.0-3(ehblbwbaimoshry2uqbalz2wq4))(@namnguyen191/dui-core@0.0.0-8(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(carbon-components-angular@5.40.2(@carbon/styles@1.65.0(sass@1.78.0)))(lodash-es@4.17.21)(zod@3.23.8)':
+  '@namnguyen191/dui-carbon-components@0.0.0-7(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/dui-common@0.0.0-3(q4d3v2tlxd532mv5d5lw2n2xqu))(@namnguyen191/dui-core@0.0.0-9(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(carbon-components-angular@5.40.2(@carbon/styles@1.65.0(sass@1.78.0)))(lodash-es@4.17.21)(zod@3.23.8)':
     dependencies:
       '@angular/common': 18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1)
       '@angular/core': 18.2.4(rxjs@7.8.1)(zone.js@0.14.10)
-      '@namnguyen191/dui-common': 0.0.0-3(ehblbwbaimoshry2uqbalz2wq4)
-      '@namnguyen191/dui-core': 0.0.0-8(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)
+      '@namnguyen191/dui-common': 0.0.0-3(q4d3v2tlxd532mv5d5lw2n2xqu)
+      '@namnguyen191/dui-core': 0.0.0-9(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)
       '@namnguyen191/types-helper': 1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8)
       carbon-components-angular: 5.40.2(@carbon/styles@1.65.0(sass@1.78.0))
       lodash-es: 4.17.21
       tslib: 2.7.0
       zod: 3.23.8
 
-  '@namnguyen191/dui-common@0.0.0-3(ehblbwbaimoshry2uqbalz2wq4)':
+  '@namnguyen191/dui-common@0.0.0-3(q4d3v2tlxd532mv5d5lw2n2xqu)':
     dependencies:
       '@angular/common': 18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1)
       '@angular/core': 18.2.4(rxjs@7.8.1)(zone.js@0.14.10)
       '@angular/router': 18.2.4(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@angular/platform-browser@18.2.4(@angular/animations@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10)))(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10)))(rxjs@7.8.1)
-      '@namnguyen191/dui-core': 0.0.0-8(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)
+      '@namnguyen191/dui-core': 0.0.0-9(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)
       '@namnguyen191/types-helper': 1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8)
       lodash-es: 4.17.21
       rxjs: 7.8.1
       tslib: 2.7.0
       zod: 3.23.8
 
-  '@namnguyen191/dui-core@0.0.0-8(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)':
+  '@namnguyen191/dui-core@0.0.0-9(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(@namnguyen191/types-helper@1.0.0-1(@swc/helpers@0.5.13)(zod@3.23.8))(angular-gridster2@18.0.1(@angular/common@18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(lodash-es@4.17.21)(rxjs@7.8.1)(zod@3.23.8)':
     dependencies:
       '@angular/common': 18.2.4(@angular/core@18.2.4(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1)
       '@angular/core': 18.2.4(rxjs@7.8.1)(zone.js@0.14.10)
