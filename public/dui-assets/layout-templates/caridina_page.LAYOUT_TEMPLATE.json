@@ -1,11 +1,11 @@
 {
-  "id": "sulawesi_page",
+  "id": "caridina_page.LAYOUT_TEMPLATE",
   "uiElementInstances": [
     {
       "id": "instance-1",
-      "uiElementTemplateId": "sulawesi_welcome_card",
+      "uiElementTemplateId": "caridina_welcome_card.CARBON_TEXT_CARD",
       "positionAndSize": {
-        "x": 8,
+        "x": 4,
         "y": 0,
         "rows": 34,
         "cols": 4,

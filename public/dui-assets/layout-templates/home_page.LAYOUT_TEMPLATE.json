@@ -1,9 +1,9 @@
 {
-  "id": "home_page",
+  "id": "home_page.LAYOUT_TEMPLATE",
   "uiElementInstances": [
     {
       "id": "instance-1",
-      "uiElementTemplateId": "neo_welcome_card",
+      "uiElementTemplateId": "neo_welcome_card.CARBON_TEXT_CARD",
       "positionAndSize": {
         "x": 0,
         "y": 0,
@@ -15,7 +15,7 @@
     },
     {
       "id": "instance-2",
-      "uiElementTemplateId": "caridina_welcome_card",
+      "uiElementTemplateId": "caridina_welcome_card.CARBON_TEXT_CARD",
       "positionAndSize": {
         "x": 4,
         "y": 0,
@@ -27,7 +27,7 @@
     },
     {
       "id": "instance-3",
-      "uiElementTemplateId": "sulawesi_welcome_card",
+      "uiElementTemplateId": "sulawesi_welcome_card.CARBON_TEXT_CARD",
       "positionAndSize": {
         "x": 8,
         "y": 0,
@@ -39,7 +39,7 @@
     },
     {
       "id": "instance-4",
-      "uiElementTemplateId": "others_welcome_card",
+      "uiElementTemplateId": "others_welcome_card.CARBON_TEXT_CARD",
       "positionAndSize": {
         "x": 12,
         "y": 0,

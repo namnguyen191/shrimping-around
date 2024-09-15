@@ -9,5 +9,5 @@ import { DuiComponent } from '@namnguyen191/dui-core';
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-  layoutId: WritableSignal<string> = signal('home_page');
+  layoutId: WritableSignal<string> = signal('home_page.LAYOUT_TEMPLATE');
 }

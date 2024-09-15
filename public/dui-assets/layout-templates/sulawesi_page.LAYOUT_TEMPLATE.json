@@ -1,11 +1,11 @@
 {
-  "id": "other_species_page",
+  "id": "sulawesi_page.LAYOUT_TEMPLATE",
   "uiElementInstances": [
     {
       "id": "instance-1",
-      "uiElementTemplateId": "others_welcome_card",
+      "uiElementTemplateId": "sulawesi_welcome_card.CARBON_TEXT_CARD",
       "positionAndSize": {
-        "x": 12,
+        "x": 8,
         "y": 0,
         "rows": 34,
         "cols": 4,

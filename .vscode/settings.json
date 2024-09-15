@@ -1,0 +1,16 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["**/*.CARBON_TEXT_CARD.json"],
+      "url": "./node_modules/@namnguyen191/dui-carbon-components/generated-json-schemas/CarbonTextCardSchema.json"
+    },
+    {
+      "fileMatch": ["**/*.LAYOUT_TEMPLATE.json"],
+      "url": "./node_modules/@namnguyen191/dui-core/generated-json-schemas/LayoutTemplateSchema.json"
+    },
+    {
+      "fileMatch": ["**/*.REMOTE_RESOURCE_TEMPLATE.json"],
+      "url": "./node_modules/@namnguyen191/dui-core/generated-json-schemas/RemoteResourceTemplateSchema.json"
+    }
+  ]
+}

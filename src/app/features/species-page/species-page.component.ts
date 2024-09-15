@@ -20,7 +20,7 @@ export class SpeciesPageComponent {
         return 'no-species';
       }
 
-      return `${speciesId}_page`;
+      return `${speciesId}_page.LAYOUT_TEMPLATE`;
     })
   );
 }

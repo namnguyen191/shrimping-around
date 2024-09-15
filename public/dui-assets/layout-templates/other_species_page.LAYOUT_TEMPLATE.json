@@ -1,11 +1,11 @@
 {
-  "id": "caridina_page",
+  "id": "other_species_page.LAYOUT_TEMPLATE",
   "uiElementInstances": [
     {
       "id": "instance-1",
-      "uiElementTemplateId": "caridina_welcome_card",
+      "uiElementTemplateId": "others_welcome_card.CARBON_TEXT_CARD",
       "positionAndSize": {
-        "x": 4,
+        "x": 12,
         "y": 0,
         "rows": 34,
         "cols": 4,
