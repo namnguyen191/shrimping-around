@@ -5,12 +5,12 @@ import {
   LayoutTemplate,
   RemoteResourceTemplate,
   UIElementTemplate,
-} from '@namnguyen191/dui-core';
+} from '@dj-ui/core';
 
 @Injectable({
   providedIn: 'root',
 })
-export class DUITemplatesService {
+export class DJUITemplatesService {
   readonly #httpClient = inject(HttpClient);
   readonly #appBaseHref = inject(APP_BASE_HREF, { optional: true }) ?? '';
 

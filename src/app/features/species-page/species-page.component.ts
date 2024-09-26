@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { DuiComponent } from '@namnguyen191/dui-core';
+import { DjuiComponent } from '@dj-ui/core';
 import { map } from 'rxjs';
 
 @Component({
   selector: 'app-species-page',
   standalone: true,
-  imports: [DuiComponent, CommonModule],
+  imports: [DjuiComponent, CommonModule],
   templateUrl: './species-page.component.html',
   styleUrl: './species-page.component.scss',
 })

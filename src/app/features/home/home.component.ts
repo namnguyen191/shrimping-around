@@ -1,10 +1,10 @@
 import { Component, signal, WritableSignal } from '@angular/core';
-import { DuiComponent } from '@namnguyen191/dui-core';
+import { DjuiComponent } from '@dj-ui/core';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [DuiComponent],
+  imports: [DjuiComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })

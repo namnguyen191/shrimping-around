@@ -1,11 +1,8 @@
 import { Component, inject } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterModule } from '@angular/router';
-import {
-  setupDefaultDUI,
-  UIElementRepositionEvent,
-} from '@namnguyen191/dui-common';
-import { EventsService } from '@namnguyen191/dui-core';
+import { setupDefault, UIElementRepositionEvent } from '@dj-ui/common';
+import { EventsService } from '@dj-ui/core';
 import { HeaderModule, ThemeModule } from 'carbon-components-angular';
 
 @Component({
@@ -19,7 +16,7 @@ export class AppComponent {
   readonly #eventsService = inject(EventsService);
 
   constructor() {
-    setupDefaultDUI();
+    setupDefault();
     this.#setupResizeListener();
   }
 

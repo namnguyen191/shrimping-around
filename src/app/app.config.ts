@@ -1,13 +1,15 @@
 import {
   ApplicationConfig,
+  inject,
   provideExperimentalZonelessChangeDetection,
 } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { appRoutes } from './app.routes';
 import { provideHttpClient } from '@angular/common/http';
-import { JS_RUNNER_WORKER } from '@namnguyen191/dui-core';
-import { DUI_COMMON_SETUP_CONFIG } from '@namnguyen191/dui-common';
-import { getDUIConfigFactory } from './dui-config';
+import { JS_RUNNER_WORKER } from '@dj-ui/core';
+import { COMMON_SETUP_CONFIG, SetupConfigs } from '@dj-ui/common';
+import { CarbonComponentLoader } from '@dj-ui/carbon-components';
+import { DJUITemplatesService } from './dj-ui-templates.service';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -16,14 +18,32 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(),
     {
       provide: JS_RUNNER_WORKER,
-      useValue: new Worker(new URL('./js-runner.worker', import.meta.url), {
-        name: 'worker',
-        type: 'module',
-      }),
+      useFactory: (): Worker => {
+        const worker = new Worker(
+          new URL('./js-runner.worker', import.meta.url),
+          {
+            name: 'CustomWorker',
+            type: 'module',
+          }
+        );
+        return worker;
+      },
     },
     {
-      provide: DUI_COMMON_SETUP_CONFIG,
-      useFactory: getDUIConfigFactory,
+      provide: COMMON_SETUP_CONFIG,
+      useFactory: (): SetupConfigs => {
+        const templatesSerivce = inject(DJUITemplatesService);
+
+        return {
+          templatesHandlers: {
+            getLayoutTemplate: templatesSerivce.getLayoutTemplate,
+            getUiElementTemplate: templatesSerivce.getUiElementTemplate,
+            getRemoteResourceTemplate:
+              templatesSerivce.getRemoteResourceTemplate,
+          },
+          componentLoadersMap: CarbonComponentLoader,
+        };
+      },
     },
   ],
 };
