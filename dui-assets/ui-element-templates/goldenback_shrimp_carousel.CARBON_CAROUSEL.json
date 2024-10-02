@@ -1,0 +1,12 @@
+{
+  "id": "goldenback_shrimp_carousel.CARBON_CAROUSEL",
+  "type": "CARBON_CAROUSEL",
+  "options": {
+    "imageUrls": [
+      "/shrimping-around/images/golden-back-shrimp-1.webp",
+      "/shrimping-around/images/golden-back-shrimp-2.webp",
+      "/shrimping-around/images/golden-back-shrimp-3.webp",
+      "/shrimping-around/images/golden-back-shrimp-4.webp"
+    ]
+  }
+}

@@ -3,9 +3,45 @@
   "uiElementInstances": [
     {
       "id": "instance-1",
-      "uiElementTemplateId": "neo_welcome_card.CARBON_TEXT_CARD",
+      "uiElementTemplateId": "cherry_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
       "positionAndSize": {
         "x": 0,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-2",
+      "uiElementTemplateId": "goldenback_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 4,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-3",
+      "uiElementTemplateId": "black_rose_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 8,
+        "y": 0,
+        "rows": 34,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-4",
+      "uiElementTemplateId": "blue_diamond_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 12,
         "y": 0,
         "rows": 34,
         "cols": 4,
