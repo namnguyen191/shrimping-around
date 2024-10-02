@@ -5,6 +5,14 @@
       "url": "./node_modules/@dj-ui/carbon-components/generated-json-schemas/CarbonTextCardSchema.json"
     },
     {
+      "fileMatch": ["**/*.CARBON_CAROUSEL.json"],
+      "url": "./node_modules/@dj-ui/carbon-components/generated-json-schemas/CarbonCarouselSchema.json"
+    },
+    {
+      "fileMatch": ["**/*.CARBON_CAROUSEL_CARD.json"],
+      "url": "./node_modules/@dj-ui/carbon-components/generated-json-schemas/CarbonCarouselCardSchema.json"
+    },
+    {
       "fileMatch": ["**/*.LAYOUT_TEMPLATE.json"],
       "url": "./node_modules/@dj-ui/core/generated-json-schemas/LayoutTemplateSchema.json"
     },

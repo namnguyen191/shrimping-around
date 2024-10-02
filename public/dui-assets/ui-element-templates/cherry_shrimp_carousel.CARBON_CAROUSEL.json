@@ -1,0 +1,12 @@
+{
+  "id": "cherry_shrimp_carousel.CARBON_CAROUSEL",
+  "type": "CARBON_CAROUSEL",
+  "options": {
+    "imageUrls": [
+      "/shrimping-around/images/cherry-shrimp-1.webp",
+      "/shrimping-around/images/cherry-shrimp-2.webp",
+      "/shrimping-around/images/cherry-shrimp-3.webp",
+      "/shrimping-around/images/cherry-shrimp-4.webp"
+    ]
+  }
+}

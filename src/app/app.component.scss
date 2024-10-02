@@ -9,6 +9,16 @@ $nav-height: 3rem;
     min-height: calc(100vh - $nav-height);
   }
 
+  .species-menu {
+    &:has(.cds--header__menu-item--current) {
+      ::ng-deep {
+        .cds--header__menu-title {
+          background-color: var(--cds-background-selected);
+        }
+      }
+    }
+  }
+
   ::ng-deep {
     gridster-item {
       background-color: var(--cds-background);

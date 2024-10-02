@@ -1,8 +1,11 @@
 import { Route } from '@angular/router';
 
+export const titlePrefix = 'Shrimping around';
+
 export const appRoutes: Route[] = [
   {
     path: 'home',
+    title: `${titlePrefix} - Home`,
     loadComponent: () =>
       import('./features/home/home.component').then((m) => m.HomeComponent),
   },

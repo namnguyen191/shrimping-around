@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterModule } from '@angular/router';
@@ -7,7 +8,7 @@ import { HeaderModule, ThemeModule } from 'carbon-components-angular';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, ThemeModule, HeaderModule],
+  imports: [RouterModule, ThemeModule, HeaderModule, CommonModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

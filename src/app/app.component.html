@@ -1,7 +1,48 @@
 <div cdsTheme="g100">
-  <cds-header brand="Shrimping around">
+  <cds-header brand="Shrimping around" [route]="['/']">
     <cds-header-navigation>
-      <cds-header-item [isCurrentPage]="true">Home</cds-header-item>
+      <cds-header-item
+        routerLink="/home"
+        routerLinkActive
+        [routerLinkActiveOptions]="{ exact: true }"
+        #rlaHome="routerLinkActive"
+        [isCurrentPage]="rlaHome.isActive"
+        >Home</cds-header-item
+      >
+      <cds-header-menu class="species-menu" title="Species">
+        <cds-header-item
+          routerLink="/species/neocaridina"
+          routerLinkActive
+          [routerLinkActiveOptions]="{ exact: true }"
+          #rlaNeocaridina="routerLinkActive"
+          [isCurrentPage]="rlaNeocaridina.isActive"
+          >Neocaridina</cds-header-item
+        >
+        <cds-header-item
+          routerLink="/species/caridina"
+          routerLinkActive
+          [routerLinkActiveOptions]="{ exact: true }"
+          #rlaCaridina="routerLinkActive"
+          [isCurrentPage]="rlaCaridina.isActive"
+          >Caridina</cds-header-item
+        >
+        <cds-header-item
+          routerLink="/species/sulawesi"
+          routerLinkActive
+          [routerLinkActiveOptions]="{ exact: true }"
+          #rlaSulawesi="routerLinkActive"
+          [isCurrentPage]="rlaSulawesi.isActive"
+          >Sulawesi</cds-header-item
+        >
+        <cds-header-item
+          routerLink="/species/other_species"
+          routerLinkActive
+          [routerLinkActiveOptions]="{ exact: true }"
+          #rlaOthers="routerLinkActive"
+          [isCurrentPage]="rlaOthers.isActive"
+          >Others</cds-header-item
+        >
+      </cds-header-menu>
     </cds-header-navigation>
   </cds-header>
   <section class="main-content">

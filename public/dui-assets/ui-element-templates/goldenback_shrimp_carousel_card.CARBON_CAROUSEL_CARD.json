@@ -1,0 +1,9 @@
+{
+  "id": "goldenback_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+  "type": "CARBON_CAROUSEL_CARD",
+  "options": {
+    "carouselId": "goldenback_shrimp_carousel.CARBON_CAROUSEL",
+    "title": "Goldenback",
+    "description": "A color morph of the Neocaridina davidi species. This shrimp is notable for a striking golden or yellow coloration with a metallic golden \"back stripe\" running along the length of its body, which gives it the \"Goldenback\" name. This back stripe can be very prominent and adds to the visual appeal."
+  }
+}
