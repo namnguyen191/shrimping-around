@@ -1,0 +1,1 @@
+var o="Shrimping around",t=[{path:"home",title:`${o} - Home`,loadComponent:()=>import("./chunk-6UPUCNBJ.js").then(e=>e.HomeComponent)},{path:"species/:speciesId",loadComponent:()=>import("./chunk-B4XDAZLM.js").then(e=>e.SpeciesPageComponent)},{path:"**",pathMatch:"full",redirectTo:"home"}];export{o as a,t as b};
