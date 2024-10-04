@@ -23,7 +23,12 @@ export class SpeciesPageComponent {
         console.error('Missing species id in url param');
         return 'no-species';
       }
-      this.#titleService.setTitle(`${titlePrefix} - ${speciesId}`);
+      const speciesNameToken = speciesId.split('_');
+      speciesNameToken[0] =
+        speciesNameToken[0]!.charAt(0).toLocaleUpperCase() +
+        speciesNameToken[0]!.slice(1);
+      const captilizedSpeciesId = speciesNameToken.join(' ');
+      this.#titleService.setTitle(`${titlePrefix} - ${captilizedSpeciesId}`);
       return `${speciesId}_page.LAYOUT_TEMPLATE`;
     })
   );

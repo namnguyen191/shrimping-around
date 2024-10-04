@@ -1,0 +1,12 @@
+{
+  "id": "green_jade_shrimp_carousel.CARBON_CAROUSEL",
+  "type": "CARBON_CAROUSEL",
+  "options": {
+    "imageUrls": [
+      "/shrimping-around/images/green_jade_shrimp_1.webp",
+      "/shrimping-around/images/green_jade_shrimp_2.webp",
+      "/shrimping-around/images/green_jade_shrimp_3.webp",
+      "/shrimping-around/images/green_jade_shrimp_4.webp"
+    ]
+  }
+}
