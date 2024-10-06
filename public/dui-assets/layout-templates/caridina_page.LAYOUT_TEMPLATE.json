@@ -1,13 +1,124 @@
 {
   "id": "caridina_page.LAYOUT_TEMPLATE",
+  "gridConfigs": {
+    "gap": 10
+  },
   "uiElementInstances": [
     {
       "id": "instance-1",
-      "uiElementTemplateId": "caridina_welcome_card.CARBON_TEXT_CARD",
+      "uiElementTemplateId": "prl_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 0,
+        "y": 0,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-2",
+      "uiElementTemplateId": "pbl_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
       "positionAndSize": {
         "x": 4,
         "y": 0,
-        "rows": 34,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-3",
+      "uiElementTemplateId": "snow_white_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 8,
+        "y": 0,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-4",
+      "uiElementTemplateId": "blue_bolt_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 12,
+        "y": 0,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-5",
+      "uiElementTemplateId": "red_fancy_tiger_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 0,
+        "y": 28,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-6",
+      "uiElementTemplateId": "black_fancy_tiger_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 4,
+        "y": 28,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-7",
+      "uiElementTemplateId": "metallic_purple_king_kong_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 8,
+        "y": 28,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-8",
+      "uiElementTemplateId": "oebt_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 12,
+        "y": 28,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-9",
+      "uiElementTemplateId": "ocean_blue_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 0,
+        "y": 56,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-10",
+      "uiElementTemplateId": "shadow_panda_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 4,
+        "y": 56,
+        "rows": 28,
         "cols": 4,
         "resizeEnabled": false,
         "dragEnabled": false

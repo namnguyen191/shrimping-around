@@ -1,5 +1,8 @@
 {
   "id": "neocaridina_page.LAYOUT_TEMPLATE",
+  "gridConfigs": {
+    "gap": 10
+  },
   "uiElementInstances": [
     {
       "id": "instance-1",
