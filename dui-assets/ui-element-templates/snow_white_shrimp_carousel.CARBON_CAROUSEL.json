@@ -1,0 +1,12 @@
+{
+  "id": "snow_white_shrimp_carousel.CARBON_CAROUSEL",
+  "type": "CARBON_CAROUSEL",
+  "options": {
+    "imageUrls": [
+      "/shrimping-around/images/snow_white_shrimp_1.webp",
+      "/shrimping-around/images/snow_white_shrimp_2.webp",
+      "/shrimping-around/images/snow_white_shrimp_3.webp",
+      "/shrimping-around/images/snow_white_shrimp_4.webp"
+    ]
+  }
+}

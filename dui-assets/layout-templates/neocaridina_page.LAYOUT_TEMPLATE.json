@@ -1,5 +1,8 @@
 {
   "id": "neocaridina_page.LAYOUT_TEMPLATE",
+  "gridConfigs": {
+    "gap": 10
+  },
   "uiElementInstances": [
     {
       "id": "instance-1",
@@ -7,7 +10,7 @@
       "positionAndSize": {
         "x": 0,
         "y": 0,
-        "rows": 34,
+        "rows": 28,
         "cols": 4,
         "resizeEnabled": false,
         "dragEnabled": false
@@ -19,7 +22,7 @@
       "positionAndSize": {
         "x": 4,
         "y": 0,
-        "rows": 34,
+        "rows": 28,
         "cols": 4,
         "resizeEnabled": false,
         "dragEnabled": false
@@ -31,7 +34,7 @@
       "positionAndSize": {
         "x": 8,
         "y": 0,
-        "rows": 34,
+        "rows": 28,
         "cols": 4,
         "resizeEnabled": false,
         "dragEnabled": false
@@ -43,7 +46,31 @@
       "positionAndSize": {
         "x": 12,
         "y": 0,
-        "rows": 34,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-5",
+      "uiElementTemplateId": "green_jade_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 0,
+        "y": 29,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-6",
+      "uiElementTemplateId": "red_rili_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 4,
+        "y": 29,
+        "rows": 28,
         "cols": 4,
         "resizeEnabled": false,
         "dragEnabled": false

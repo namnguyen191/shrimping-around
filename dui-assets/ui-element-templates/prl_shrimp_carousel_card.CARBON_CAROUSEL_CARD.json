@@ -1,0 +1,9 @@
+{
+  "id": "prl_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+  "type": "CARBON_CAROUSEL_CARD",
+  "options": {
+    "carouselId": "prl_shrimp_carousel.CARBON_CAROUSEL",
+    "title": "Pure red line",
+    "description": "A selectively bred variant of the Caridina cantonensis species, specifically a high-grade form of the Crystal Red Shrimp (CRS). These shrimp are prized for their deep, solid red and white coloration, with breeders focusing on maintaining \"pure\" genetic lines that have not been crossed with other shrimp varieties. This purity in breeding ensures consistent and vibrant coloration."
+  }
+}
