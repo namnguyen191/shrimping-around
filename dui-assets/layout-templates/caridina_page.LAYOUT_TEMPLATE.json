@@ -123,6 +123,30 @@
         "resizeEnabled": false,
         "dragEnabled": false
       }
+    },
+    {
+      "id": "instance-11",
+      "uiElementTemplateId": "metallic_red_rose_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 8,
+        "y": 56,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-12",
+      "uiElementTemplateId": "metallic_blue_boa_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 12,
+        "y": 56,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
     }
   ]
 }
