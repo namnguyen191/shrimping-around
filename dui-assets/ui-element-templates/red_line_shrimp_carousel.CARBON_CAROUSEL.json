@@ -1,0 +1,12 @@
+{
+  "id": "red_line_shrimp_carousel.CARBON_CAROUSEL",
+  "type": "CARBON_CAROUSEL",
+  "options": {
+    "imageUrls": [
+      "/shrimping-around/images/red_line_shrimp_1.webp",
+      "/shrimping-around/images/red_line_shrimp_2.webp",
+      "/shrimping-around/images/red_line_shrimp_3.webp",
+      "/shrimping-around/images/red_line_shrimp_4.webp"
+    ]
+  }
+}
