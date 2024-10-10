@@ -13,7 +13,15 @@ $nav-height: 3rem;
     &:has(.cds--header__menu-item--current) {
       ::ng-deep {
         .cds--header__menu-title {
-          background-color: var(--cds-background-selected);
+          &::after {
+            position: absolute;
+            background-color: var(--cds-border-interactive, #0f62fe);
+            block-size: 3px;
+            content: '';
+            inline-size: calc(100% + 4px);
+            inset-block-end: -2px;
+            inset-inline-start: -2px;
+          }
         }
       }
     }

@@ -3,11 +3,47 @@
   "uiElementInstances": [
     {
       "id": "instance-1",
-      "uiElementTemplateId": "sulawesi_welcome_card.CARBON_TEXT_CARD",
+      "uiElementTemplateId": "white_sock_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 0,
+        "y": 0,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-2",
+      "uiElementTemplateId": "yellow_cheek_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 4,
+        "y": 0,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-3",
+      "uiElementTemplateId": "red_line_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
       "positionAndSize": {
         "x": 8,
         "y": 0,
-        "rows": 34,
+        "rows": 28,
+        "cols": 4,
+        "resizeEnabled": false,
+        "dragEnabled": false
+      }
+    },
+    {
+      "id": "instance-4",
+      "uiElementTemplateId": "black_galaxy_shrimp_carousel_card.CARBON_CAROUSEL_CARD",
+      "positionAndSize": {
+        "x": 12,
+        "y": 0,
+        "rows": 28,
         "cols": 4,
         "resizeEnabled": false,
         "dragEnabled": false
