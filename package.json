@@ -20,7 +20,7 @@
     "@carbon/styles": "^1.65.0",
     "@dj-ui/carbon-components": "0.0.1-2",
     "@dj-ui/common": "^0.0.0",
-    "@dj-ui/core": "0.0.1-3",
+    "@dj-ui/core": "0.0.1-4",
     "carbon-components": "^10.58.15",
     "carbon-components-angular": "^5.40.2",
     "rxjs": "~7.8.1",
