@@ -72,5 +72,6 @@
       "style": "css"
     }
   },
-  "defaultProject": "shrimping-around"
+  "defaultProject": "shrimping-around",
+  "useLegacyCache": true
 }
